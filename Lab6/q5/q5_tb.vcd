@@ -1,0 +1,52 @@
+$date
+	Mon Aug 31 10:00:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q5_tb $end
+$var wire 1 ! z $end
+$var wire 4 " f [3:0] $end
+$var reg 16 # a [15:0] $end
+$scope module ex1 $end
+$var wire 16 $ a [15:0] $end
+$var reg 4 % f [3:0] $end
+$var reg 1 ! z $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 &
+b0 %
+b0 $
+b0 #
+b0 "
+0!
+$end
+#20
+b1010 "
+b1010 %
+1!
+b10000 &
+b10101100001 #
+b10101100001 $
+#40
+b10000 &
+1!
+b1110 "
+b1110 %
+b100000000110000 #
+b100000000110000 $
+#60
+b10000 &
+1!
+b1111 "
+b1111 %
+b1101110111011101 #
+b1101110111011101 $
+#80

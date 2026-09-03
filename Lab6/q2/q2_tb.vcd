@@ -1,0 +1,87 @@
+$date
+	Mon Aug 31 09:36:51 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q2_tb $end
+$var wire 16 ! f [0:15] $end
+$var reg 1 " En $end
+$var reg 4 # a [3:0] $end
+$scope module ex3 $end
+$var wire 1 " En $end
+$var wire 1 $ En_lower $end
+$var wire 1 % En_upper $end
+$var wire 4 & a [3:0] $end
+$var wire 16 ' f [0:15] $end
+$scope module lower $end
+$var wire 1 $ En $end
+$var wire 3 ( a [2:0] $end
+$var reg 8 ) f [0:7] $end
+$var integer 32 * k [31:0] $end
+$upscope $end
+$scope module upper $end
+$var wire 1 % En $end
+$var wire 3 + a [2:0] $end
+$var reg 8 , f [0:7] $end
+$var integer 32 - k [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 -
+b0 ,
+b11 +
+b1000 *
+b0 )
+b11 (
+b0 '
+b11 &
+0%
+0$
+b11 #
+0"
+b0 !
+$end
+#20
+b1000 -
+b10000000000 !
+b10000000000 '
+b100 )
+b1000 *
+b101 (
+b101 +
+1$
+b101 #
+b101 &
+1"
+#40
+b1000 -
+b0 !
+b0 '
+b0 )
+b1000 *
+b100 (
+b100 +
+0$
+b1100 #
+b1100 &
+0"
+#60
+b1000 *
+b10 !
+b10 '
+b10 ,
+b1000 -
+b110 (
+b110 +
+1%
+b1110 #
+b1110 &
+1"
+#80
